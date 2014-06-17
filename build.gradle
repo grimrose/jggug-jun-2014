@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.sysgears.grain:grain-gradle-plugin:0.2.0'
+    }
+}
+
+apply plugin: 'grain'
+
+repositories {
+    mavenCentral()
+}
+
+task grainInstall(type: com.sysgears.grain.gradle.GrainInstallTask) {
+    theme = 'template' // theme to install, can be 'template', 'octopress', etc.
+    version = '0.4.2'  // theme version
+}
+
+apply plugin: 'idea'
