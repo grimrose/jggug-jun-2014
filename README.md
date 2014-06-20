@@ -5,6 +5,11 @@ GitHub Pages with Grain framework
 
 http://jggug.doorkeeper.jp/events/11365
 
+### スライド
+
+http://grimrose.github.io/jggug-jun-2014
+
+
 ### ライセンス
 
 Written by grimrose, 2014
